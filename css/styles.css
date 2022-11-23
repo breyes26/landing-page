@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    flex-grow: 1;
+    font-family: "Roboto", "Arial", "sans-serif";
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+}
+
+.header-hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding-bottom: 60px;
+} 
+
+div.info-title{
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:900;
+}
+div.hero{
+    display: flex;
+}
+
+div.hero-main{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+.header-hero .header,
+.header-hero .hero{
+
+    padding-left: 10%;
+    padding-right: 10%
+
+}
+nav.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 60px;
+     
+}
+
+div.quote-section{
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+
+}
+
+div.footer{
+    display: flex;
+    flex-shrink: 0;
+    height: 5%;
+    background-color:#1F2937;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: #F9FAF8;
+
+}
+h1.hero-main-heading{
+    font-size: 48px;
+    font-weight: 400;
+    color: #F9FAF8;
+    
+}
+
+
+div.quote span{
+    margin: 16px;
+    display: block;
+    text-align: right;
+    font-weight: 900;
+}
+div.quote{
+    font-size: 36px;
+    color: #1F2937;
+    justify-content: center;
+    width: 60%;
+    
+}
+button.hero{
+    flex-shrink: 0px;;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    height:40px;
+    min-width: 70px;
+    width: 100px;
+    color: #F9FAF8;
+    font-weight:700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+div.hero-image{
+    margin-left: auto;
+    align-self: center;
+}
+p.hero.text{
+    font-size: 18px;
+    color:#E5E7EB;
+    padding-left: 0%;
+}
+
+nav.header img.logo{
+    width: auto;
+    height: 40px;
+    
+}
+
+div.square{
+    height: 150px;
+    width: 150px;
+    outline: #3882F6;
+    outline-width: 5px;
+    outline-style: solid;
+    border-radius: 5px;
+
+}
+
+div.info-piece{
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+    width: 150px;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+div.info-squares{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px;
+}
+div.logo-text span{
+    display: flex;
+
+    line-height: 30px;
+}
+div.logo-text{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    font-size: 40px;
+    color: #F9FAF8;
+    font-weight: 700;
+   
+}
+div.hero img{
+    
+    width: auto;
+    height: 250px;
+    border-radius: 20px;
+}
+.header ul.header-links{
+    display: flex;
+    flex-shrink: 0;
+    list-style: none;
+    gap: 16px;
+    font-size: 18px;
+    align-items: flex-end;
+  
+}
+
+a:link,a:visited{
+    color:#E5E7EB;
+    text-decoration-line: none;
+    
+}
+
+div.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    
+}
+
+
+div.text{
+    color: #F9FAF8;
+}
+
+div.call-to-action div.box button{
+    background-color:#3882F6;
+    outline-style: solid;
+    color:white;
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+}
+div.text div.first{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+div.call-to-action div.box{
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    
+}
+.hero{
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+p.first-line,p.second-line{
+    display: block;
+    color:#E5E7EB
+    
+}
+p.second-line::before{
+    content: '\a';
+    white-space: pre;
+}
+
+p.second-line{
+    text-align: start;
+}
